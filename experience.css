@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    color: #6633ff;
+}
+
+/* Section Styles */
+
+.main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px 170px 10px 10px;
+
+    position: fixed;
+    text-align: center;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 900;
+    list-style-type: none;
+    margin: 0 auto;
+
+
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}
+.nav a:hover {
+    color: white
+}
+
+
+
+header {
+    text-align: center;
+    background: url('images/web dev.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 70px;
+}
+header {
+    line-height:10.5;
+}
+
+
+.tag{
+    color: white;
+    background-color: rgba(28, 28, 28, .3)
+
+}
+
+.location {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: rgba(28, 28, 28, .3)
+
+}
+ h1{
+    font-size: 4rem;
+
+}
+ .happy{
+     background-color: red;
+     color: white;
+     border: solid white 5px;
+     padding: 10px;
+     letter-spacing: 2px;
+ }
+@media screen and (min-width: 720px) {
+
+    .flex {
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: flex;
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    header {
+        min-height: 470px;
+    }
+
+    .nav {
+        max-width: 1200px;
+        padding: 0 30px;
+    }
+
+
+    main {
+        padding-top: 20px;
+    }
+
+    main p {
+        line-height: 1.6em;
+    }
+
+    footer {
+        font-size: 1.3em;
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+
+}
+h2{
+    border: solid black 3px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+
+}
